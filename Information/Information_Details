@@ -1,0 +1,14 @@
+# Report Syntax
+
+C:\Z-Udhayakumar\IOT\Automation_Projects\API_Automation>
+robot -r ./Reports/report.html -o ./Reports/output.xml -l ./Reports/log.html TestCases\TC_009_ValidateStatusCodeKeyword.robot
+
+#Tags
+C:\Z-Udhayakumar\IOT\Automation_Projects\API_Automation>robot -i Smoke AllTestCases
+-e  exclude the test case
+
+Force Tags-All the files in particular file
+C:\Z-Udhayakumar\IOT\Automation_Projects\API_Automation>robot -i Hello AllTestCases
+
+Default Tag- In one file any one not has tag leve,the default level tag will consider and set in the setting level,so execute one case only
+if you are not having any tag in cases-if one has tag and another one will not have tag-can set default tag in setting level
